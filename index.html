@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Nina & Pau ✈️</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #faf8f5;
+      color: #222;
+    }
+
+    header {
+      text-align: center;
+      padding: 70px 20px 45px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin: 0 0 10px;
+    }
+
+    header p {
+      color: #777;
+      font-size: 17px;
+    }
+
+    .viajes {
+      width: 90%;
+      max-width: 900px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      padding-bottom: 60px;
+    }
+
+    .viaje {
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0,0,0,.08);
+      transition: transform .2s;
+      cursor: pointer;
+    }
+
+    .viaje:hover {
+      transform: translateY(-5px);
+    }
+
+    .foto {
+      height: 270px;
+      background: #e9e4df;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 70px;
+    }
+
+    .info {
+      padding: 22px;
+    }
+
+    .info h2 {
+      margin: 0 0 7px;
+      font-size: 25px;
+    }
+
+    .info p {
+      margin: 0;
+      color: #888;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 18px;
+      color: #222;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      color: #aaa;
+      padding: 30px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Nina & Pau ✈️</h1>
+  <p>Our little memories around the world ♡</p>
+</header>
+
+<section class="viajes">
+
+  <div class="viaje">
+    <div class="foto">🇦🇷</div>
+
+    <div class="info">
+      <h2>Buenos Aires</h2>
+      <p>Octubre 2026</p>
+      <a class="boton" href="#">Ver recuerdos →</a>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  Made with ♡ for our adventures
+</footer>
+
+</body>
+</html>
